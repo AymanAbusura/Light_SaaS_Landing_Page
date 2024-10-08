@@ -13,6 +13,7 @@ export const ProductShowcase = () => {
     offset: ["start end", "end start"],
   });
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
+  
   return (
     <section
       ref={sectionRef}
